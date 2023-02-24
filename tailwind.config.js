@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   
   content: [
@@ -28,8 +29,22 @@ module.exports = {
         //'fundo': "url('/bg.svg')",
       }
     },
+    screens: {
+      phone: { min: "320px", max: "600px" },
+
+      tablet: { min: "640px", max: "1023px" },
+
+      laptop: "1024px",
+
+      desktop: "1280px",
+      ultraWide: { min: "1281px", max: "2560px" },
+
+      ...defaultTheme.screens,
+    },
   },
   plugins: [
-    require("flowbite/plugin")
+    require("flowbite/plugin"),
+    require("@tailwindcss/line-clamp"),
+    require("@tailwindcss/typography"),
   ],
 }

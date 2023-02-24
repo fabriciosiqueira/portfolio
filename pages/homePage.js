@@ -4,8 +4,8 @@ import heroImage from "../public/images/heroimage.jpg"
 
 function homePage() {
     return (
-        <div>
-            <div className='flex justify-between text-center md:mx-20 md:pt-32 pt-28'>
+        <div className='flex justify-center'>
+            <div className='flex justify-between text-center w-[70%] mx-auto md:mx-20 md:pt-32 pt-[10px] phone:w-full'>
                 <div className='w-3/4 h-96 shadow-xl rounded-full relative px-10 hidden md:block'>
                     <Image src={heroImage} alt='heroImage' layout='fill' objectFit='cover' className='rounded-full cursor-pointer hidden md:block' />
                 </div>

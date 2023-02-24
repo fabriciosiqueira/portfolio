@@ -15,7 +15,7 @@ function Navbar() {
                     <div className='flex items-center h-20 w-full px-5'>
                         <div className='flex items-center sm:mx-10 md:mx-20 justify-between w-full px-5'>
                             {/***Logo * */}
-                            <div className='flex justify-center items-center flex-shrink-0 '>
+                            <div className='flex justify-center items-center flex-shrink-0 ml-10'>
                                 <h1 className='font-bold text-xl cursor-pointer'>
                                     Stream<span className='text-blue-600'>line</span>
                                 </h1>

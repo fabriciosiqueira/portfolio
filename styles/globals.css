@@ -8,10 +8,18 @@
     color: 	#2590EB
 }
 
+
+
 .linkwhite:hover {
     color: 	#fff;
     background-color: #2590EB;
     padding-left: 15px;
+
+}
+
+.portfoliobtn:hover {
+    color: 	#fff;
+    background-color: #000;
 
 }
 

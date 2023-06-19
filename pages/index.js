@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../public/components/Navbar'
 import HomePage from "./homePage"
+import Services from "./services"
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
 
       <Navbar />
       <HomePage />
+      <Services />
+      
     </div>
   )
 }
